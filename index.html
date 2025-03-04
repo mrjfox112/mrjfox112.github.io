@@ -11,8 +11,28 @@
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <!-- Devicon: Programming languages icons -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <style>
+            body {
+            background-color: #6bb2f8; /* a light blue background */
+            font-family: 'Georgia', serif;
+            }
+            .navbar {
+            background-color: #19334e; /* a custom dark shade */
+            }
+            h1 {
+            color: #000000;
+            }
+            p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            }
+            .icon{
+                width: 64px; /*set your desired width*/
+                height: auto; /*maintains aspect ratio*/
+            }
+        </style>
     </head>
-
+      
     <body>
         <nav class="navbar navbar-dark navbar-expand-lg bg-dark ">
             <div class="container-fluid">
@@ -27,20 +47,20 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="https://github.com/mrjfox112">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Reading Log</a>
+                            <a class="nav-link" href="https://www.linkedin.com/in/mrjfox">Linked-In Profile</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
+        
         <div class="container my-4 ">
             <div class="row justify-content-center">
                 <div class="col-lg mb-lg-4">
-                    <img src="image.jpg" class="img-fluid" alt="" srcset="">
+                    <img src="bckgnd.jpg" class="img-fluid" alt="Blue Ridge Parkway" srcset="">
                 </div>
                 <div class="col-lg mx-2 align-self-center">
                     <div class="my-3">
@@ -68,20 +88,20 @@
                     <!-- Skills -->
                     <div class="col">
                         <div class="text-center">
-                            <h4>WordPress</h4>
-                            <i class="devicon-wordpress-plain"></i>
+                            <h4>Breadboarding</h4>
+                            <img src="breadboard.jpg" alt="Breadboarding Icon" class="icon">
                         </div>
                     </div>
                     <div class="col">
                         <div class="text-center">
-                            <h4>Django</h4>
-                            <i class="devicon-django-plain"></i>
+                            <h4>Custom PC Builds</h4>
+                            <img src="pcbuild.jpg" alt="PC Build Icon" class="icon">
                         </div>
                     </div>
                     <div class="col">
                         <div class="text-center">
-                            <h4>Python</h4>
-                            <i class="devicon-python-plain"></i>
+                            <h4>Fusion 360</h4>
+                            <img src="fusion.png" alt="Fusion Icon" class="icon">
                         </div>
                     </div>
                     <div class="col">
@@ -97,6 +117,51 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
+        <div class="col-lg mx-2 align-self-center">
+            <div class="my-4">
+                <h1 class="text-center">Current Projects</h1>
+                    <div class="text-container mx-auto">
+                        <p class="text-center">
+                            Currently, I have several interesting projects going on that I'm working on
+                            within several classes. The first image is the lastest progress update of my
+                            team (Go Team Hawks!) model airplane we have designed from the ground up, 
+                            based on the historical airplane: the Miles Sparrowhawk. This is from my 
+                            ENGR 200 course where we are tasked to build, research, and design the whole
+                            plane from just a set plans!
+                        </p>
+                    </div>    
+                        <img
+                            class="d-block mx-auto" 
+                            src="Tail Integration Update.png" 
+                            alt="ENGR 200 with skeleton frame" 
+                            style="width:720px; height: auto">
+
+                <p class="text-center">
+                    The second image depicts a recent PWM (Pulse Width Modulation) circuit that
+                    I wired up in my ECET 211 class. Additionally, I have also included in the
+                    third image the PCB design that I wired together and designed. We are going 
+                    to manufacture and solder these boards soon this semester.
+                </p>
+                    <div class="image-container">
+                        <div class="row justify-content-center"> 
+                            <img src="PWM Circuit.jpg" alt="Breadboarded PWM circuit" style="width:420px; height: auto">
+                            <img src="PWMpcb.jpg" alt="PWM circuit modeled in EAGLE CAD" style="width:420px; height:auto">
+                        </div>
+                    </div>       
+                   
+                <p class="text-center">   
+                    Lastly, I have included a picture of a rough proof of concept design for
+                    a robot Im helping to design for the IEEE team I am on. We have since 
+                    then taken this idea and expanded to what can be seen in the last image. 
+                    
+                </p>
+                    <div class="image-container">
+                        <div class="row justify-content-center"> 
+                            <img src="robot.PNG" alt="Fusion 360 representation of robot mockup" style="width:420px; height: auto">
+                            <img src="finalrobot.jpg" alt="Final robot with team" style="width:420px; height:auto">
+                        </div>
+                    </div>
+
     </body>
 
 </html>
